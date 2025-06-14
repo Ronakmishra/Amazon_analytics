@@ -7,19 +7,56 @@ It empowers stakeholders to understand sales performance across different time p
 
 ---
 
+## 🛠️ Project Structure
+
+```plaintext
+/Dashboard                   <- Main repo folder
+    /screenshots             <- Contains all dashboard screenshots
+        Data_model.png
+        orders_dashboard.png
+        product_dashboard.png
+        product_dashboard_2.png
+        tooltip_example.png
+    README.md                <- This file
+    amazon_dashboard.pbix    <- Power BI dashboard file
+
+---
+
 ## ⚡ Tech Stack
 
 - **Power BI** (Dashboard & Data Modeling)
 - **Power Query** (ETL/Data Cleaning)
 - **DAX** (KPIs & Custom Measures)
 - **Python & Statistics** (for additional data prep)
-
+```
 ---
+## 🚀 What We Did
 
-## 🧹 Data Preparation
+### Data Modeling & Preparation
 
-- Cleaned and transformed data using **Power Query** (removed nulls, fixed data types, merged columns, renamed fields, etc.).
-- Created a robust **data model** to enable fast and flexible reporting (see [Data Model screenshot](#)).
+- Imported raw Amazon sales and product data into Power BI.
+- Used **Power Query** for cleaning (fixing types, removing nulls, renaming fields).
+- Built a **data model** with proper relationships to support flexible analysis.
+
+### KPI Design & DAX Measures
+
+- Defined key business metrics using custom **DAX**:
+- Sale Amount, Total Orders, Pending/Cancelled Orders, Shipped Orders, Return Rate, Total Products, Total Reviews, Average Product Rating, Inventory Left, Prime/Best Seller Product Share, etc.
+- Applied formatting and logic to display zero instead of blanks for all KPIs.
+
+### Dashboard Development
+
+- Created **two main dashboards**:
+    - **Orders Dashboard:** High-level KPIs, sales by region, sales trends, fulfillment/returns, category slicers.
+    - **Product Analytics Dashboard:** Product-level KPIs, interactive catalogue, Prime/best seller share, category filters, advanced tooltips.
+- Added **custom tooltips** with extra metrics and time-series visuals.
+- Included slicers for category-based filtering.
+- Applied conditional formatting to highlight low stock or top performers.
+
+### Visualization & Interactivity
+
+- Used a mix of visuals (bar, line, pie, card, gallery) for maximum insight and presentation value.
+- Enabled users to filter and drill-down with slicers, tooltips, and interactive visuals.
 
 ---
 
@@ -53,7 +90,7 @@ It empowers stakeholders to understand sales performance across different time p
 - **Dynamic Category Slicer:** Instantly filter all visuals by product category.
 
 **Sample Screenshot:**  
-![Orders Dashboard](./path_to_your_orders_dashboard_screenshot.png)
+![Orders Dashboard](././Dashboard/orders_dashboard.png)
 
 ---
 
@@ -66,8 +103,18 @@ It empowers stakeholders to understand sales performance across different time p
 - **Custom Tooltips:** On hover, see detailed KPIs and sales trend for any product/category.
 
 **Sample Screenshot:**  
-![Product Dashboard](./path_to_your_product_dashboard_screenshot.png)
+![Product Dashboard](./Dashboard/product_dashboard.png)  
+![Product Dashboard 2](./Dashboard/product_dashboard_2.png)  
+![Tooltip Example](./Dashboard/tooltip_example.png)
 
+---
+
+### Data Model
+
+- **Entity Relationships:** Ensures accurate cross-table analytics and drilldowns.
+
+**Screenshot:**  
+![Data Model](./Dashboard/Data_model.png)
 ---
 
 ### 3️⃣ Advanced Features
@@ -121,7 +168,7 @@ Return rate = DIVIDE([Cancelled Order], [Total Orders], 0) * 100
 
 ## 👤 Author
 
-- [Your Name](https://github.com/yourusername)
+- [Your Name](https://github.com/Ronakmishra)
 
 ---
 
