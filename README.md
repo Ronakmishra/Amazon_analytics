@@ -11,7 +11,7 @@ It empowers stakeholders to understand sales performance across different time p
 
 ```plaintext
 /Dashboard                   <- Main repo folder
-    /screenshots             <- Contains all dashboard screenshots
+    /Dashboard             <- Contains all dashboard screenshots
         Data_model.png
         orders_dashboard.png
         product_dashboard.png
