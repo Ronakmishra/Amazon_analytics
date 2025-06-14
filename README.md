@@ -1,4 +1,4 @@
-# Amazon Sales Reporting Dashboard (Power BI)
+# Amazon Sales Analytics
 
 ## 📊 Project Overview
 
