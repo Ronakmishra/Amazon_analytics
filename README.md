@@ -102,11 +102,6 @@ It empowers stakeholders to understand sales performance across different time p
 - **Prime Product Share Pie Chart:** Visualize Prime-eligible vs. non-Prime products.
 - **Custom Tooltips:** On hover, see detailed KPIs and sales trend for any product/category.
 
-**Sample Screenshot:**  
-![Product Dashboard](./Dashboard/product_dashboard.png)  
-![Product Dashboard 2](./Dashboard/product_dashboard_2.png)  
-![Tooltip Example](./Dashboard/tooltip_example.png)
-
 ---
 
 ### Data Model
