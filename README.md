@@ -143,16 +143,6 @@ Return rate = DIVIDE([Cancelled Order], [Total Orders], 0) * 100
 
 ---
 
-## 📸 Screenshots
-
-> **Add your screenshots here!**  
-> Example:  
-> ![Orders Dashboard](./screenshots/orders_dashboard.png)  
-> ![Product Analytics](./screenshots/product_dashboard.png)  
-> ![Tooltip Example](./screenshots/tooltip_example.png)
-
----
-
 ## 🚀 Project Highlights
 
 - **Full Sales & Inventory Visibility:** One-stop view for business decisions.
